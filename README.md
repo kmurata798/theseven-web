@@ -1,3 +1,3 @@
 # TheSevenKG Website
 
-![TheSeven's car](static\img\brand\Car\headlightson_dark.jpg "cool vibrations")
+![TheSeven's car](static\img\brand\Car\headlightson_dark.png "cool vibrations")
