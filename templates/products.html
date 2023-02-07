@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="static\img\stickers\lonelydrivers\sticker_lonelydrivers1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>Lonely Drivers Sticker</h5>
+                <p>Join the club of lonely drivers, and maybe make a few friends a long the way.
+                High quality sticker for virtually any surface.
+                Japanese text translates to "Speed Stars"</p>
+                <h3>$6.00</h3>
+                <p><a href="#" class="btn btn-info mt-3">View</a></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="static\img\other\dreamlanyard\lanyard_dream1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>Rage Your Dream Lanyard</h5>
+                <p>A Japan themed wrist lanyard to remind yourself to keep chasing your dreams.
+                Fits around the wrist. Can be used to carry your keys, badges, or even attached to another keychain or lanyard.</p>
+                <h3>$8.99</h3>
+                <p><a href="#" class="btn btn-info mt-3">View</a></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="static\img\stickers\rxseven\sticker_rxseven1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>RXSeven Sticker</h5>
+                <p>A sticker to show off your love of the Rx7! Specifically the FC!
+                    High quality sticker that can be applied to virtually any surface.</p>
+                <h3>$4.00</h3>
+                <p><a href="#" class="btn btn-info mt-3">View</a></p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- about section -->
+
+<section id="about" class="about-section-pading">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12"></div>
+            <div class="about-img">
+                <img src="static\img\brand\Sevencar\blackoutfit1.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-12 col-12 ps-lg-5 m5-md-5">
+            <div class="about-text">
+                <h2>Initial D club!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime in corporis dignissimos eius nobis? Unde, corporis qui? Similique neque non nobis omnis, ipsum sint necessitatibus, sapiente, eum distinctio autem error?</p>
+                <a href="https://linktr.ee/thesevenkg" class="btn btn-success" target="_blank" rel="noreferrer noopener">Visit TheSevenKG's LinkTree</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

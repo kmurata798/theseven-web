@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Profile Page</h1>
+{% if name %}
+    <p>{{name}}'s profile</p>
+{% else %}
+    <p>Your profile will appear here.</p>
+{% endif %}
+{% endblock %}
