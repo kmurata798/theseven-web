@@ -1,8 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %} 
-<h1>Contact me here.</h1>
-<p>hi</p>
-<p>hi</p>
-<p>there</p>
+<h1>Contact TheSevenKG</h1>
+<br>
+<h3>Helpful feedback is always appreciated!</h3>
+<br>
+<br>
+<form action="/contact/sent" method="POST">
+    <label for="name">Your name:</label><br>
+    <input type="text" id="name" name="name" value="Anonymous"><br>
+    <label for="name">Your email:</label><br>
+    <input type="text" id="email" name="email" value=""><br>
+    <label for="name">Confirm your email:</label><br>
+    <input type="text" id="email_confirm" name="email_confirm" value=""><br>
+    <label for="message">Message:</label><br>
+    <input type="text" id="message" name="message" value="">
+    <input type="submit" value="Submit">
+</form>
 {% endblock %}
